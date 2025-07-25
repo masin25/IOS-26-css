@@ -29,10 +29,10 @@
                   0px 6px 30px 5px rgba(0,0,0,0.12);
 
     /* Glassmorphism */
-    --glass-bg-color: rgba(255, 255, 255, 0.7);
-    --glass-blur-intensity: 12px;
-    --glass-border-color: rgba(255, 255, 255, 0.4);
-    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    --glass-bg-color: rgba(255, 255, 255, 0.85);
+    --glass-blur-intensity: 8px;
+    --glass-border-color: rgba(255, 255, 255, 0.6);
+    --glass-shadow: 0 8px 32px 0 rgba(74, 144, 226, 0.2);
     --glass-header-height: 64px;
 
     /* iOS 26 Animations */
@@ -41,9 +41,9 @@
     --ios-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     
     /* iOS 26 Specific Colors */
-    --ios-surface: rgba(255, 255, 255, 0.65);
-    --ios-surface-dark: rgba(28, 28, 30, 0.65);
-    --ios-border: rgba(255, 255, 255, 0.2);
+    --ios-surface: rgba(255, 255, 255, 0.9);
+    --ios-surface-dark: rgba(255, 255, 255, 0.95);
+    --ios-border: rgba(74, 144, 226, 0.3);
     
     /* Enhanced Animation Variables */
     --ios-hover-scale: 1.02;
@@ -56,7 +56,9 @@
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(120deg, var(--md-background) 0%, var(--md-primary-light) 100%);
+    background: linear-gradient(135deg, var(--md-background) 0%, var(--md-primary-light) 50%, var(--md-accent) 100%);
+    min-height: 100vh;
+    color: var(--md-text-primary);
 }
 
 /* Animation Helpers */
