@@ -465,29 +465,6 @@ body {
     border-color: var(--md-primary);
 }
 
-/* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --md-primary: #4A90E2;
-        --md-primary-dark: #3A80D2;
-        --md-primary-light: #213045;
-        --md-accent: #50E3C2;
-        --md-accent-dark: #40D3B2;
-        --md-background: #141414;
-        --md-background-light: #1E1E1E;
-        --md-surface: #2C2C2C;
-        --md-text-primary: rgba(255, 255, 255, 0.95);
-        --md-text-secondary: rgba(255, 255, 255, 0.75);
-        --ios-surface: rgba(255, 255, 255, 0.1);
-        --ios-surface-dark: rgba(255, 255, 255, 0.05);
-        --ios-border: rgba(255, 255, 255, 0.2);
-        --glass-bg-color: rgba(46, 46, 46, 0.8);
-        --glass-border-color: rgba(255, 255, 255, 0.15);
-        --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-        --md-highlight: #F5A623;
-    }
-}
-
 /* Reduced Motion Support */
 @media (prefers-reduced-motion: reduce) {
     :root {
